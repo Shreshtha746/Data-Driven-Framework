@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-13T13:24:38Z" name="Data Driven" finished-at="2021-06-13T13:26:53Z" duration-ms="134184">
+    <groups>
+    </groups>
+    <test started-at="2021-06-13T13:24:38Z" name="MyAccountTest" finished-at="2021-06-13T13:26:47Z" duration-ms="128277">
+      <class name="testcases.MyAccountTest">
+        <test-method signature="verifyTitle()[pri:0, instance:testcases.MyAccountTest@6b5176f2]" started-at="2021-06-13T13:24:38Z" name="verifyTitle" finished-at="2021-06-13T13:24:38Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="myaccount()[pri:1, instance:testcases.MyAccountTest@6b5176f2]" started-at="2021-06-13T13:24:38Z" name="myaccount" finished-at="2021-06-13T13:24:46Z" duration-ms="8085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myaccount -->
+        <test-method signature="login()[pri:2, instance:testcases.MyAccountTest@6b5176f2]" started-at="2021-06-13T13:24:46Z" name="login" finished-at="2021-06-13T13:24:59Z" duration-ms="12617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:3, instance:testcases.MyAccountTest@6b5176f2]" started-at="2021-06-13T13:24:59Z" name="addToCart" finished-at="2021-06-13T13:26:42Z" duration-ms="103289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="logout()[pri:4, instance:testcases.MyAccountTest@6b5176f2]" started-at="2021-06-13T13:26:42Z" name="logout" finished-at="2021-06-13T13:26:47Z" duration-ms="4207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testcases.MyAccountTest -->
+    </test> <!-- MyAccountTest -->
+    <test started-at="2021-06-13T13:26:47Z" name="RegisterTest" finished-at="2021-06-13T13:26:53Z" duration-ms="5859">
+      <class name="testcases.RegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.RegisterTest@66ea1466]" started-at="2021-06-13T13:23:57Z" name="setUp" finished-at="2021-06-13T13:24:38Z" duration-ms="41465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="register(java.lang.String, java.lang.String)[pri:0, instance:testcases.RegisterTest@66ea1466]" started-at="2021-06-13T13:26:47Z" name="register" data-provider="getData" finished-at="2021-06-13T13:26:53Z" duration-ms="5838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tt7908810@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@2409sel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.RegisterTest@66ea1466]" started-at="2021-06-13T13:26:53Z" name="tearDown" finished-at="2021-06-13T13:26:54Z" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.RegisterTest -->
+    </test> <!-- RegisterTest -->
+  </suite> <!-- Data Driven -->
+</testng-results>

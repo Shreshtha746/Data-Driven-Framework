@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MyAccountTest(failed)">
+    <classes>
+      <class name="testcases.MyAccountTest">
+        <methods>
+          <include name="logout"/>
+          <include name="setUp"/>
+          <include name="addToCart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.MyAccountTest -->
+    </classes>
+  </test> <!-- MyAccountTest(failed) -->
+  <test thread-count="5" name="RegisterTest(failed)">
+    <classes>
+      <class name="testcases.RegisterTest">
+        <methods>
+          <include name="register" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.RegisterTest -->
+    </classes>
+  </test> <!-- RegisterTest(failed) -->
+</suite> <!-- Failed suite [Data Driven] -->
